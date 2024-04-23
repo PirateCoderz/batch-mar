@@ -1,0 +1,23 @@
+.black {
+    color: black;
+}
+
+.green {
+    /* RGB Color */
+    color: rgba(255, 0, 255, 0.506);
+
+    /* HEX Color */
+
+    color : #811515ff;
+
+    /* HSL color */
+    color: hsl(234, 54%, 41%);
+
+
+    background-image: url('/imgs/tools.webp');
+    background-position: right;
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    background-size: cover;
+    background-attachment: fixed;
+}
