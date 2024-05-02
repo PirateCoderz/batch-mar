@@ -1,20 +1,16 @@
-.header-logo, .header-logo p, header .unorderedList , header nav{
-    display: inline-block;
+body {
+    margin: 0;
 }
 
-.header-logo {
-    /* viewport width */
-    width: 40vw;
+
+#second-div {
+    /* Difference between display-none & visibility-hidden */
+    /* display: none; */
+    /* visibility: hidden; */
+    visibility: collapse;
+    
 }
 
-header .unorderedList {
-    list-style-type: none;
-}
-header .unorderedList a {
-    text-decoration: none;
-}
 
-header .unorderedList li {
-    display: inline-block;
-    margin: 10px;
-}
+
+
