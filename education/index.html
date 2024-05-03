@@ -5,9 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <title>Education Page</title>
 </head>
 
+<style>
+    .education {
+        height: 200px;
+        background-color: bisque;
+    }
+</style>
 <body>
     <header>
         <!-- DRY => Donot repeat yourself -->
@@ -26,9 +34,7 @@
         </nav>
 
     </header>
-
-
-    <main>
+    <main class="education">
         <h1>Education Page</h1>
 
 
@@ -37,7 +43,15 @@
     </main>
 
     <footer>
-
+        <nav class="footer-nav">
+            <ul class="">
+                <li><a href="/">Home</a></li>
+                <li><a href="/skills">Skills</a></li>
+                <li><a href="/my-work">My Work</a></li>
+                <li><a href="/education">Education</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
     </footer>
 
 

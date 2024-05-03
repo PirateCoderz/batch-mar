@@ -10,11 +10,9 @@ header {
     display: inline-block;
 }
 
-
-
 .header-logo {
-    /* viewport width */
-    width: 40vw;
+     
+    width: 10vw;
     padding-inline: 2rem;
     font-size: larger;
 }
@@ -23,7 +21,7 @@ header .unorderedList {
     list-style-type: none;
 }
 header .unorderedList a {
-    text-decoration: none;
+    text-decoration: solid;
 }
 
 header .unorderedList li {
