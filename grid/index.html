@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+
+
+
+    <title>Grid Section</title>
+
+    <style>
+
+        .container {
+            display: grid;
+
+            grid-template-columns:auto auto auto auto auto auto auto;
+            /* height: max-content; */
+            width: 400px;
+            background-color: cornflowerblue;
+        }
+        .items {
+            height: 70px;
+            margin: 10px;
+            /* width: 100px; */
+            background-color: white;
+        }
+
+        .grid {
+            display: grid;
+            height: 50px;
+            /* grid-template-columns: auto auto auto auto; */
+            grid-template-columns: 25% 25% 25% 25%;
+            width: 80%;
+            margin : auto;
+            /* background-color: blue; */
+        }
+        /* ul { */
+            /* margin: 0px !important; */
+        /* } */
+        .item {
+            background-color: beige;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .item:hover {
+            
+            background-color: rgb(170, 170, 50);
+        }
+
+        .item:hover {
+            background-color: blueviolet;
+        }
+
+        .grid a {
+            width: 100%;
+            color: black;
+            cursor: pointer;
+            /* display: block; */
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <!-- DRY => Donot repeat yourself -->
+        <div class="header-logo">
+            <p>Logo</p>
+        </div>
+
+        <nav>
+            <ul class="unorderedList">
+                <li><a href="/">Home</a></li>
+                <li><a href="/skills">Skills</a></li>
+                <li><a href="/grid">Grid</a></li>
+                <li><a href="/my-work">My Work</a></li>
+                <li><a href="/education">Education</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="container">
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            
+        </div>
+
+        <ul class="grid">
+            <a class="item" href="#home" >home</a> 
+            <a class="item" href="#cart" >cart</a> 
+            <a class="item" href="#about" >about</a> 
+            <a class="item" href="#contact" >contact</a> 
+        </ul>
+
+
+
+    </main>
+
+    <footer></footer>
+    
+</body>
+</html>
