@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aquamarine;
+    margin: 0;
+}
+
+header nav ul {
+    gap: 1rem;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 8px;
+}
+
+header nav ul li:hover {
+    background-color: black;
+}
+
+header nav ul li:hover a {
+    color: white;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
