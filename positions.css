@@ -1,9 +1,10 @@
 p {
     font-size: 1.5rem;
+    line-height: 1.5;
 }
 
 header {
-    position: fixed;
+    position: sticky;
     width: 100vw;
     top: 0px;
 }
@@ -20,12 +21,19 @@ h1 {
     /* top: 0px; */
     bottom: 20px;
     right: 20px;
-    
+    position: sticky;
     border-radius: 50%;
     height: 70px;
     width: 70px;
 }
 
-.anyone {
+
+.sticky {
     position: sticky;
+    background-color: brown;
+    top: 100px
+}
+
+.relative {
+
 }
